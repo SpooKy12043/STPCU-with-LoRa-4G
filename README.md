@@ -27,4 +27,5 @@ It makes use of LoRa, Wi-Fi, and 4G/LTE communication technologies to ensure rel
 - **Environmental sensors** (e.g., DHT11, PMS7003) for real-time data collection.
 - **The Things Network (TTN)** for LoRaWAN integration.
 
+Regarding LoRa technology, the codes used for uploading the data frame to TTN are based on the control codes provided by the **RadioLib** library. Modifications were made to the transmission and frame handling to suit the proposed scenario.
 
