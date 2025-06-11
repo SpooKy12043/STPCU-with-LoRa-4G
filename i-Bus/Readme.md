@@ -1,1 +1,2 @@
 
+En esta carpeta se encuentran los códigos implementados para el escenario Bus, empleando la tecnología LoRa y WiFi. Se presenta un tercer código escrito en Python, correspondiente a la interfaz y comunicación de los datos provenientes del bus y la silla hacia el módulo LilyGO LoRa 32 OLED y A7670SA, los cuales se encargan de subir la información hacia los nodos y gestores intermedios, como TTN y un *MQTT Broker*.
