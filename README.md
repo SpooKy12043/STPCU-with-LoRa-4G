@@ -23,9 +23,14 @@ It makes use of LoRa, Wi-Fi, and 4G/LTE communication technologies to ensure rel
 
 ## Others (Devices, Sensors and Network Server)
 
-- ESP8266/ESP32 microcontrollers** for module development.
-- **Environmental sensors** (e.g., DHT11, PMS7003) for real-time data collection.
-- **The Things Network (TTN)** for LoRaWAN integration.
+- ESP8266/ESP32 microcontrollers for module development.
+- Environmental sensors (e.g., DHT11, PMS7003) for real-time data collection.
+- The Things Network (TTN) for LoRaWAN integration.
 
 Regarding LoRa technology, the codes used for uploading the data frame to TTN are based on the control codes provided by the **RadioLib** library. Modifications were made to the transmission and frame handling to suit the proposed scenario.
+
+The integration of LTE 4G technology as a backup communication method is currently under development. Therefore, the repository will be updated in the future.
+
+- Status: In progress
+
 
